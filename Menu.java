@@ -1,10 +1,10 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class menu {
+public class Menu {
     private ArrayList<String> opciones;
 
-    public menu() {
+    public Menu() {
         this.opciones = new ArrayList<>();
     }
 
