@@ -33,6 +33,7 @@ public class GestSimAlm {
         }
     }
 
+    //Aumenta el stock cuando entra mercancia.
     public void entradaMercancia(String codigo, int cantidad) {
         Articulo articulo = almacen.buscarPorCodigo(codigo);
         if (articulo != null) {
@@ -42,6 +43,7 @@ public class GestSimAlm {
         }
     }
 
+    //Reduce stock cuando sale mercancia.
     public void salidaMercancia(String codigo, int cantidad) {
         Articulo articulo = almacen.buscarPorCodigo(codigo);
         if (articulo != null) {
