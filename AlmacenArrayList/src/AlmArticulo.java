@@ -36,4 +36,15 @@ public class AlmArticulo {
         }
         return null;
     }
+
+    //Sobrecargamos el ToString de la clase Articulo
+    @Override
+    public String toString() {
+        String resultado = "Listado de artículos:\n";
+        for (Articulo articulo : articulos) {
+            resultado += articulo.toString() + "\n";
+        }
+        return resultado;
+    }
+
 }
