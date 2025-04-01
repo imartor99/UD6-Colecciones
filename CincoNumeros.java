@@ -25,7 +25,7 @@ public class CincoNumeros {
             suma += n;
         }
         
-        //Mostramos 
+        //Mostramos resultados por pantalla
         System.out.println("La suma de los números es: " + suma);
     }
 }
