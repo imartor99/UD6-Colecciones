@@ -13,7 +13,7 @@ public class CincoNumeros {
         Scanner entrada = new Scanner(System.in);
 
         // Recogemos los 5 números introducidos por el usuario
-        for (int i = 0; i <1 5; i++) {
+        for (int i = 0; i<5; i++) {
             System.out.println("Introduce un número: ");
             num = entrada.nextInt();
             numeros.add(num);
